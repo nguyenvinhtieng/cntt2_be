@@ -12,7 +12,7 @@ const io = require("socket.io")(server, {
     }
 }); 
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 app.use(cors())
 const route = require('./route/index.js');
 const db = require('./config/db.js');

@@ -1,6 +1,6 @@
 const nodemailer = require("nodemailer");
 const os = require("os");
-let url = "http://localhost:3000/reset-password/"
+let url = "https://cntt2-be.herokuapp.com/reset-password/"
 async function sendMail(receiver, otp) {
     let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
