@@ -1,0 +1,1327 @@
+[{
+  "_id": {
+    "$oid": "63e5f2c0aeec92ffc1736c57"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a24"
+  },
+  "title": "hỏi host fly.io",
+  "content": "<p>sao m&igrave;nh d&ugrave;ng flyctl deploy website l&ecirc;n host&nbsp;<a href=\"http://fly.io/\" target=\"_blank\" rel=\"noopener\">fly.io</a>&nbsp;ho&agrave;i m&agrave; n&oacute; bảo cần x&aacute;c nhận thẻ credit payment ,trong khi m&igrave;nh đăng k&yacute; freehost,chả lẽ n&oacute; hết cho free</p>",
+  "tags": [
+    "IT"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014272949"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014272949"
+    }
+  },
+  "slug": "h-i-host-fly-io",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f305aeec92ffc1736ca0"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a0c"
+  },
+  "title": "Cách tìm ra api chạy nhanh nhất",
+  "content": "<p>Hi mọi người m&igrave;nh c&oacute; c&acirc;u hỏi chưa biết c&aacute;ch giải quyết, c&oacute; 3 API giống nhau chạy chạy tr&ecirc;n 3 servers kh&aacute;c nhau, sử dụng javascript, react. c&aacute;ch để t&igrave;m ra api chạy nhanh nhất v&agrave; lấy response từ api đ&oacute;. mong c&aacute;c sư phụ giải đ&aacute;p.</p>",
+  "tags": [
+    "react"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014341146"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014341146"
+    }
+  },
+  "slug": "cach-tim-ra-api-chay-nhanh-nhat",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f321aeec92ffc1736cad"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a03"
+  },
+  "title": "Xóa tự động dữ liệu trong laravel 8",
+  "content": "<p>Ch&agrave;o c&aacute;c bạn m&igrave;nh mới học laravel v&agrave; đang l&agrave;m 1 website về gi&aacute;o dục. M&igrave;nh đang gặp ch&uacute;t rắc rối về tự động x&oacute;a trong laravel. Vấn đề của m&igrave;nh: M&igrave;nh c&oacute; bảng lịch khai giảng như sau:</p>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-php\" data-filename=\"\"><code> Schema::create('tbl_lichkhaigiang', function (Blueprint $table) {\r\n        $table-&gt;BigIncrements('lkg_id');\r\n        $table-&gt;string('thoiluong',200);\r\n        $table-&gt;date('ngaykhaigiang');\r\n        $table-&gt;date('ngayketthuc');\r\n});</code></pre>\r\n<p>&nbsp;</p>\r\n</div>",
+  "tags": [
+    "php"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014369488"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014369488"
+    }
+  },
+  "slug": "xoa-tu-dong-du-lieu-trong-laravel-8",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f331aeec92ffc1736cba"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689d9"
+  },
+  "title": "Làm sao Enabel CROS cho tất cả request vào trong spring boot",
+  "content": "<p>Ch&agrave;o mọi người,</p>\r\n<p>M&igrave;nh bị lỗi khi call api từ reactjs sang Java Spring Boot th&igrave; bị lỗi CROS, mn c&oacute; c&aacute;ch n&agrave;o mở cho tất cả request kh&ocirc;ng ạ?</p>\r\n<p>M&igrave;nh cảm ơn!</p>",
+  "tags": [
+    "java"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014385838"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014385838"
+    }
+  },
+  "slug": "lam-sao-enabel-cros-cho-tat-ca-request-vao-trong-spring-boot",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f34aaeec92ffc1736cc7"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a2d"
+  },
+  "title": "Kinh nghiệm xin duyệt project trên Google Console",
+  "content": "<p>Trong nh&oacute;m đ&atilde; c&oacute; bạn n&agrave;o từng xin duyệt project tr&ecirc;n Google Console để x&agrave;i Google API xin chỉ m&igrave;nh gi&uacute;p ạ. M&igrave;nh l&agrave;m m&agrave; Google n&oacute; đ&ograve;i hỏi giải quyết nhiều vấn đề ko biết đ&acirc;u m&agrave; lần.</p>",
+  "tags": [
+    "google api"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014410647"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014410647"
+    }
+  },
+  "slug": "kinh-nghiem-xin-duyet-project-tren-google-console",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f364aeec92ffc1736cd4"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a30"
+  },
+  "title": "Quy trình kiểm soát sản phẩm không phù hợp và thực hiện hành động khắc phục",
+  "content": "<p>M&igrave;nh l&agrave; tay ngang nhảy sang l&agrave;m ISO cho 1 đơn vị outsourcing. Đối với c&aacute;c đơn vị sản xuất sản phẩm hữu h&igrave;nh th&igrave; sẽ dễ h&igrave;nh dung c&aacute;c con h&agrave;ng NG (Not good) v&agrave; đưa ra h&agrave;nh động xử l&yacute;. Tuy nhi&ecirc;n, với outsourcing m&igrave;nh hiện tại vẫn chưa h&igrave;nh dung cụ thể n&oacute; sẽ như thế n&agrave;o n&ecirc;n mạo muội l&ecirc;n đ&acirc;y xin c&aacute;c anh chị em l&agrave;m trong ng&agrave;nh phần mềm (nhất l&agrave; lĩnh vực gia c&ocirc;ng, ph&aacute;t triển phần mềm) m&agrave; c&ocirc;ng ty đ&atilde; &aacute;p dụng ISO 9001 th&igrave; cho m&igrave;nh xin c&aacute;c quy tr&igrave;nh li&ecirc;n quan đến kiểm so&aacute;t sản phẩm kh&ocirc;ng ph&ugrave; hợp (non comformity) v&agrave; thực hiện khắc phục (corrective action) để tham khảo. Rất mong được mọi người gi&uacute;p đỡ. Xin ch&acirc;n th&agrave;nh cảm ơn.</p>",
+  "tags": [
+    "IT"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014436224"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014436224"
+    }
+  },
+  "slug": "quy-trinh-kiem-soat-san-pham-khong-phu-hop-va-thuc-hien-hanh-dong-khac-phuc",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f372aeec92ffc1736ce1"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a33"
+  },
+  "title": "Quy trình kiểm soát sản phẩm không phù hợp và thực hiện hành động khắc phục",
+  "content": "<p>M&igrave;nh l&agrave; tay ngang nhảy sang l&agrave;m ISO cho 1 đơn vị outsourcing. Đối với c&aacute;c đơn vị sản xuất sản phẩm hữu h&igrave;nh th&igrave; sẽ dễ h&igrave;nh dung c&aacute;c con h&agrave;ng NG (Not good) v&agrave; đưa ra h&agrave;nh động xử l&yacute;. Tuy nhi&ecirc;n, với outsourcing m&igrave;nh hiện tại vẫn chưa h&igrave;nh dung cụ thể n&oacute; sẽ như thế n&agrave;o n&ecirc;n mạo muội l&ecirc;n đ&acirc;y xin c&aacute;c anh chị em l&agrave;m trong ng&agrave;nh phần mềm (nhất l&agrave; lĩnh vực gia c&ocirc;ng, ph&aacute;t triển phần mềm) m&agrave; c&ocirc;ng ty đ&atilde; &aacute;p dụng ISO 9001 th&igrave; cho m&igrave;nh xin c&aacute;c quy tr&igrave;nh li&ecirc;n quan đến kiểm so&aacute;t sản phẩm kh&ocirc;ng ph&ugrave; hợp (non comformity) v&agrave; thực hiện khắc phục (corrective action) để tham khảo. Rất mong được mọi người gi&uacute;p đỡ. Xin ch&acirc;n th&agrave;nh cảm ơn.</p>",
+  "tags": [
+    "IT"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014450663"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014450663"
+    }
+  },
+  "slug": "quy-trinh-kiem-soat-san-pham-khong-phu-hop-va-thuc-hien-hanh-dong-khac-phuc-skZeC9_69B",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f387aeec92ffc1736cee"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a06"
+  },
+  "title": "hỏi về cách upload image trong tinymce",
+  "content": "<p>cho m&igrave;nh hỏi c&aacute;ch upload image trong tinymce qua api với. m&igrave;nh đang đọc docs nhưng ko hiểu c&aacute;ch upload. tks mn</p>",
+  "tags": [
+    "vue"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014471085"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014471085"
+    }
+  },
+  "slug": "h-i-ve-cach-upload-image-trong-tinymce",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f39daeec92ffc1736cfb"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a00"
+  },
+  "title": "What is PlanetScale DB?",
+  "content": "<p>Ch&agrave;o mọi người, m&igrave;nh thấy xu hướng Database n&agrave;y, mọi người c&oacute; thể dịch sang tiếng việt cho s&aacute;t nghĩa để mọi người hiểu hơn về c&ocirc;ng nghệ n&agrave;y nha</p>\r\n<p>What is PlanetScale DB? PlanetScale is a MySQL-compatible, serverless database platform powered by Vitess, which is a database clustering system for horizontal scaling of MySQL (as well as Percona and MariaDB). Vitess also powers Slack, Square, GitHub, and YouTube, among others.</p>\r\n<p>Tham khảo</p>\r\n<p><a href=\"https://www.infoworld.com/article/3631149/planetscale-review-mysql-at-cloud-scale.html\" target=\"_blank\" rel=\"noopener\">https://www.infoworld.com/article/3631149/planetscale-review-mysql-at-cloud-scale.html</a></p>",
+  "tags": [
+    "database"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014493353"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014493353"
+    }
+  },
+  "slug": "what-is-planetscale-db",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f3b7aeec92ffc1736d08"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689cd"
+  },
+  "title": "What is PlanetScale DB?",
+  "content": "<p>Ch&agrave;o mọi người, m&igrave;nh thấy xu hướng Database n&agrave;y, mọi người c&oacute; thể dịch sang tiếng việt cho s&aacute;t nghĩa để mọi người hiểu hơn về c&ocirc;ng nghệ n&agrave;y nha</p>\r\n<p>What is PlanetScale DB? PlanetScale is a MySQL-compatible, serverless database platform powered by Vitess, which is a database clustering system for horizontal scaling of MySQL (as well as Percona and MariaDB). Vitess also powers Slack, Square, GitHub, and YouTube, among others.</p>\r\n<p>Tham khảo</p>\r\n<p><a href=\"https://www.infoworld.com/article/3631149/planetscale-review-mysql-at-cloud-scale.html\" target=\"_blank\" rel=\"noopener\">https://www.infoworld.com/article/3631149/planetscale-review-mysql-at-cloud-scale.html</a></p>",
+  "tags": [
+    "database"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014519984"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014519984"
+    }
+  },
+  "slug": "what-is-planetscale-db-aUjy4li3La",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f3c9aeec92ffc1736d15"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689cd"
+  },
+  "title": "Làm sao để thêm dấu câu trong NLP",
+  "content": "<p>M&igrave;nh c&oacute; một đoạn văn bản chưa được đ&aacute;nh dấu c&acirc;u, v&iacute; dụ:</p>\r\n<blockquote>\r\n<p>xin ch&agrave;o h&ocirc;m nay trời đẹp qu&aacute; bạn khỏe kh&ocirc;ng</p>\r\n</blockquote>\r\n<p>đầu ra mong muốn:</p>\r\n<blockquote>\r\n<p>Xin ch&agrave;o. H&ocirc;m nay trời đẹp qu&aacute;! Bạn khỏe kh&ocirc;ng?</p>\r\n</blockquote>\r\n<p>Trong NLP c&oacute; model hay thư viện n&agrave;o xử l&yacute; được việc th&ecirc;m dấu c&acirc;u n&agrave;y k ạ.</p>",
+  "tags": [
+    "NLP"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014537790"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014537790"
+    }
+  },
+  "slug": "lam-sao-de-them-dau-cau-trong-nlp",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f3dfaeec92ffc1736d22"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a15"
+  },
+  "title": "Laravel - Khi thực hiện action như thêm hay sửa thì sau 15 phút thực hiện action thì nó sẽ thực hiện gửi mail thì nên dùng cronjob hay queue ?",
+  "content": "<p>Mong mọi người gi&uacute;p đỡ</p>",
+  "tags": [
+    "laravel"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014559317"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014559317"
+    }
+  },
+  "slug": "laravel-khi-thuc-hien-action-nhu-them-hay-sua-thi-sau-15-phut-thuc-hien-action-thi-no-se-thuc-hien-gui-mail-thi-nen-dung",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f3f7aeec92ffc1736d2f"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a0f"
+  },
+  "title": "hỏi tạo database trong render.com",
+  "content": "<p>mọi người cho m&igrave;nh hỏi m&igrave;nh tạ database trong&nbsp;<a href=\"http://render.com/\" target=\"_blank\" rel=\"noopener\">render.com</a>&nbsp;để c&agrave;i web như vậy đ&uacute;ng hay sai,sao m&igrave;nh tạo ho&agrave;i m&agrave; kh&ocirc;ng c&agrave;i web được</p>",
+  "tags": [
+    "database"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014583062"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014583062"
+    }
+  },
+  "slug": "h-i-tao-database-trong-render-com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f40faeec92ffc1736d3c"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689c7"
+  },
+  "title": "Data Analysis Using SQL?",
+  "content": "<p>SQL for data analysis refers to the database querying language's use of relational databases and its capacity for simultaneous interaction with various databases. The combination of a surprisingly low learning curve and a deep complexity that enables users to build sophisticated tools and dashboards for data analytics makes SQL one of the most widely used and universal languages.</p>\r\n<p>In fact, Python, Scala, and Hadoop are three of the most popular languages used today for managing and manipulating large data which can be learned in a&nbsp;<a href=\"https://www.learnbay.co/data-science-certification-courses\" target=\"_blank\" rel=\"noopener\">data science certification course</a>&nbsp;accredited by IBM.</p>",
+  "tags": [
+    "sql"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014607502"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014607502"
+    }
+  },
+  "slug": "data-analysis-using-sql",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f42aaeec92ffc1736d49"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a36"
+  },
+  "title": "How Can A Data Science Internship Improve Your Future Job Prospect?",
+  "content": "<p>Potential Benefits Offered by Data Science Internship</p>\r\n<p>Exposure to Real-world application An internship is a fantastic way to gain experience working on real-world projects and connecting with clients.</p>\r\n<p>Timing flexibility Since most employers won't anticipate an internship to fill a full delivery job, you can use the downtime to concentrate on acquiring new skills in addition to your internship duties.</p>\r\n<p>Practicing technical Skills The learning phase's capstone project uses learning data, which can be used in internships to practice technical skills and comprehend the difference between learning data and real-world data.</p>\r\n<p>Responsibilities and roles Understand the many roles involved, their duties, and how data science initiatives are carried out.</p>\r\n<p>Communication with stakeholders Numerous teams, including business analysts, subject matter experts, customers, or other business stakeholders, are involved in data science projects. One of the essential skills that may be acquired during the internship is effective communication.</p>\r\n<p>Make connections with business leaders Through project interactions and networking, internships assist in establishing connections with senior industry executives. This might be quite helpful while you pursue your profession.</p>\r\n<p>Obtain employment experience Gaining experience through real-world initiatives during an internship enhances your resume and helps you land a job.</p>\r\n<p>Relevant Job Offers In rare circumstances, the internship may result in a job offer.</p>\r\n<p>So, How can you apply for an internship in Data Science and AI?</p>\r\n<p>Your career in data science should start with a data science internship. It is crucial to choose an internship that will give you an opportunity to develop your technical abilities and obtain real-world experience. To ensure you are internship-ready, you should take care of the following before applying for the internship:</p>\r\n<p>Academic credentials, certifications, and references About data science, Academic achievements, or certificates, improve your resume. Analyze the appropriate qualifications and pursue them as necessary. You can also obtain recommendations from professors and reputable data scientists to support your credentials. It's time to start applying for internships now. An IBM-accredited data science certification course in Bangalore is the best way to showcase your credentials on your resume.</p>\r\n<p>The following are a few factors that will increase your chances of getting the data science internship of your choice.</p>\r\n<p>Networking: The ability to network is crucial for landing your first internship. Start investigating your relationships by starting with known contacts, friends, and family, and finally, open networking by going to data science-related events.</p>\r\n<p>Send your r&eacute;sum&eacute; to all prospective contacts, act enthusiastically, and follow up regularly. Be quick to accept the first offer to talk about potential internships.</p>\r\n<p>Look through job websites like&nbsp;<a href=\"http://linkedin.com/\" target=\"_blank\" rel=\"noopener\">linkedin.com</a>&nbsp;and submit your online application for suitable internships. Additionally, you can submit your application through the websites of your selected employers.</p>\r\n<p>Consider the internship options from the standpoint of learning opportunities and prospective future employment when you receive many offers.</p>\r\n<p>Technically Ready Strong conceptual comprehension and technical abilities are necessary for the internship role. You should excel in data preparation, machine learning modeling, and Python programming.</p>\r\n<p>Data Science Projects You should have completed 20 learning or capstone data science projects using fully operational machine learning algorithms. It is strongly advised that you keep track of your code developments in cloud repositories like Github so that you may show them to prospective employers to demonstrate your subject-matter expertise.</p>\r\n<p>Conclusion I hope this article will be helpful for obtaining a successful data science internship. Before wrapping up, I want to point out that while there is no foolproof method, the advice above will improve your chances of standing out from the crowd and pursuing your desired career. Never forget that persistence and patience are essential for professional success. Furthermore, if you want to start learning everything from scratch or want to upgrade your skills, I suggest you take up the best&nbsp;<a href=\"https://www.learnbay.co/data-science-course-training-in-bangalore\" target=\"_blank\" rel=\"noopener\">data science course in Bangalore</a>. Learn and acquire hands-on practical experience to be confident before applying for any internship or job.</p>\r\n<p>Good luck!</p>",
+  "tags": [
+    "DS"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014634081"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014634081"
+    }
+  },
+  "slug": "how-can-a-data-science-internship-improve-your-future-job-prospect",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f455aeec92ffc1736d56"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a39"
+  },
+  "title": "Cách dàn trang(sản phẩm) bằng grid, row, column thủ công sử dụng html css?",
+  "content": "<p>Chuyện l&agrave; sau một thời gian x&agrave;i c&aacute;c thư viện như Bootstrap, TW th&igrave; hiện tại em đ&atilde; qu&ecirc;n lu&ocirc;n c&aacute;ch d&agrave;n trang rồi&nbsp;<img class=\"emoji\" draggable=\"false\" src=\"https://twemoji.maxcdn.com/2/72x72/1f626.png\" alt=\"😦\">) V&agrave; đ&acirc;y lại l&agrave; một c&acirc;u hỏi trong ph&oacute;ng vấn FE&nbsp;<img class=\"emoji\" draggable=\"false\" src=\"https://twemoji.maxcdn.com/2/72x72/1f626.png\" alt=\"😦\">) họ hỏi em sẽ xử l&yacute; sao với c&aacute;c item để d&agrave;n trang list c&aacute;c sản phẩm, đại loại như sau:</p>\r\n<p>c&aacute;i đoạn phần c&aacute;ch giữa c&aacute;c item v&igrave; em qu&ecirc;n n&ecirc;n chỉ n&oacute;i l&agrave; margin right and bottom... thực ra l&agrave; biết thế n&agrave;o cũng bị hỏi c&aacute;i item cuối trước khi wrap xuống d&ograve;ng th&igrave; sẽ xử l&yacute; ntn v&agrave;&nbsp;<strong>\"&ocirc;i trời đất ơi\"</strong>&nbsp;em đ&atilde; b&oacute; tay&nbsp;<img class=\"emoji\" draggable=\"false\" src=\"https://twemoji.maxcdn.com/2/72x72/1f602.png\" alt=\"😂\">&nbsp;n&ecirc;n em l&ecirc;n đ&acirc;y nhờ c&aacute;c anh/chị v&aacute; gi&uacute;p lại em phần kiến thức n&agrave;y.... Em cảm ơn</p>",
+  "tags": [
+    "css"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014677348"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014677348"
+    }
+  },
+  "slug": "cach-dan-trang-san-pham-bang-grid-row-column-thu-cong-su-dung-html-css",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f482aeec92ffc1736d63"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a1b"
+  },
+  "title": "Lỗi Webpack khi deploy Rails App lên AWS Fargate",
+  "content": "<p>Hello mọi người, em đang deploy rails app l&ecirc;n fargate, em c&oacute; container nginx đ&atilde; kết nối được với rails container, tuy nhi&ecirc;n c&oacute; một vấn đề li&ecirc;n quan đến Webpack xảy ra m&agrave; em chưa c&oacute; phương &aacute;n xử l&iacute;. Hi vọng nhận được sự gi&uacute;p đỡ của mọi người. Many thanks.</p>\r\n<p>Webpacker::Manifest::MissingEntryError in Devise::Sessions#new Webpacker can't find application.js in /lline-arrangement/public/packs/manifest.json. Possible causes: 1. You want to set webpacker.yml value of compile to true for your environment unless you are using the `webpack -w` or the webpack-dev-server. 2. webpack has not yet re-run to reflect updates. 3. You have misconfigured Webpacker's config/webpacker.yml file. 4. Your webpack configuration is not creating a manifest. Your manifest contains: { }</p>",
+  "tags": [
+    "Webpack "
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014722109"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014722109"
+    }
+  },
+  "slug": "loi-webpack-khi-deploy-rails-app-len-aws-fargate",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f499aeec92ffc1736d70"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a3f"
+  },
+  "title": "Giấy phép Cá nhân và giấy phép mở rộng",
+  "content": "<p>Ch&agrave;o c&aacute;c bạn, m&igrave;nh xem tr&ecirc;n codecanyon c&oacute; m&ocirc; tả giấy ph&eacute;p, bạn n&agrave;o rảnh tiếng anh hoặc am hiểu kiến thức giấy ph&eacute;p c&oacute; thể dịch v&agrave; tạo b&agrave;i viết để mọi người tham khảo. cảm ơn</p>\r\n<p><a href=\"https://codecanyon.net/licenses/standard?license=extended\" target=\"_blank\" rel=\"noopener\">https://codecanyon.net/licenses/standard?license=extended</a></p>",
+  "tags": [
+    "IT"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014745197"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014745197"
+    }
+  },
+  "slug": "giay-phep-ca-nhan-va-giay-phep-mo-rong",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f4b5aeec92ffc1736d7d"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a39"
+  },
+  "title": "flexwrap- Css cho item cuối cùng của row",
+  "content": "<p>M&igrave;nh đang d&ugrave;ng flex để css c&aacute;i bảng như n&agrave;y. Vấn đề m&igrave;nh gặp phải l&agrave; : giữa c&aacute;c item sẽ c&oacute; 1 dấu gạch, m&igrave;nh đang d&ugrave;ng :not(:last-child) để tạo ra n&oacute;, v&agrave; khi wrap th&igrave; c&aacute;i item cuối của mỗi h&agrave;ng sẽ bị dư dấu gạch.</p>\r\n<p>C&oacute; bạn n&agrave;o biết c&aacute;ch css n&agrave;o tốt cho trường hợp n&agrave;y kh&ocirc;ng gi&uacute;p m&igrave;nh với.</p>",
+  "tags": [
+    "css"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014773765"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014773765"
+    }
+  },
+  "slug": "flexwrap-css-cho-item-cuoi-cung-cua-row",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f4ceaeec92ffc1736d8a"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a1e"
+  },
+  "title": "Type checking condition(v-if) in template - Vue Typescript",
+  "content": "<p>Xin ch&agrave;o mọi người !!!</p>\r\n<p>M&igrave;nh vừa thấy 1 thắc mắc l&agrave; m&igrave;nh c&oacute; 2 prop iconName như b&ecirc;n dưới v&agrave; m&igrave;nh c&oacute; 1 component Button</p>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>interface TabProps {\r\n  icon?: IconName;\r\n  iconPosition?: 'left' | 'right';\r\n}\r\n</code></pre>\r\n<button class=\"v-markdown-it-code-copy\" title=\"Sao ch&eacute;p\" data-clipboard-text=\"interface TabProps {\r\n  icon?: IconName;\r\n  iconPosition?: 'left' | 'right';\r\n}\r\n\"></button></div>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>const props = withDefaults(defineProps&lt;TabProps&gt;(), {\r\n  icon: undefined,\r\n  iconPosition: 'left',\r\n});\r\n</code></pre>\r\n<button class=\"v-markdown-it-code-copy\" style=\"box-sizing: border-box; border-radius: 5px; margin: 0px; font-family: inherit; font-size: inherit; line-height: inherit; overflow: visible; text-transform: none; appearance: button; position: absolute; display: flex; align-items: center; justify-content: center; top: 7.5px; right: 6px; cursor: pointer; outline: none; border: none; background: rgb(101, 84, 84); height: 25px; opacity: 0.5;\" title=\"Sao ch&eacute;p\" data-clipboard-text=\"const props = withDefaults(defineProps&lt;TabProps&gt;(), {\r\n  icon: undefined,\r\n  iconPosition: 'left',\r\n});\r\n\"></button></div>\r\n<p>Viết như n&agrave;y sẽ lỗi</p>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code> &lt;Button :variant=\"tabVariant\" :color=\"tabColor\" :class=\"tabClasses\" @click=\"handleChangeTab\"&gt;\r\n    &lt;template v-if=\"icon\" #leftIcon&gt;\r\n      &lt;Icon :name=\"icon\" width=\"18\" height=\"18\" /&gt;\r\n    &lt;/template&gt;\r\n    &lt;slot /&gt;\r\n  &lt;/Button&gt;\r\n</code></pre>\r\n<button class=\"v-markdown-it-code-copy\" style=\"box-sizing: border-box; border-radius: 5px; margin: 0px; font-family: inherit; font-size: inherit; line-height: inherit; overflow: visible; text-transform: none; appearance: button; position: absolute; display: flex; align-items: center; justify-content: center; top: 7.5px; right: 6px; cursor: pointer; outline: none; border: none; background: rgb(101, 84, 84); height: 25px; opacity: 0.5;\" title=\"Sao ch&eacute;p\"></button></div>\r\n<p>M&igrave;nh thắc mắc ở chỗ l&agrave;:</p>\r\n<p>Nếu d&ugrave;ng v-if như n&agrave;y&nbsp;<code>&lt;template v-if=\"icon\" #leftIcon&gt;</code></p>\r\n<p>=&gt; Error:&nbsp;<code>Type 'IconName | undefined' is not assignable to type 'IconName'.</code></p>\r\n<p>C&ograve;n nếu m&agrave; m&igrave;nh d&ugrave;ng v-if như n&agrave;y&nbsp;<code>v-if=\"icon\"</code>&nbsp;=&gt; Th&igrave; kh&ocirc;ng c&oacute; lỗi, nhưng thế n&agrave;y n&oacute; sẽ render 1&nbsp;<code>empty tag</code></p>",
+  "tags": [
+    "vue"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014798088"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014798088"
+    }
+  },
+  "slug": "type-checking-condition-v-if-in-template-vue-typescript",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f4deaeec92ffc1736d97"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a15"
+  },
+  "title": "Câu hỏi về BA",
+  "content": "<p>BA c&oacute; cần biết code kh&ocirc;ng ?</p>",
+  "tags": [
+    "BA"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014814401"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014814401"
+    }
+  },
+  "slug": "cau-h-i-ve-ba",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f4f9aeec92ffc1736da4"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a1e"
+  },
+  "title": "Tìm dữ liệu tiếng việt",
+  "content": "<p>Ch&agrave;o mọi người m&igrave;nh đang cầm t&igrave;m 1 bộ dữ liệu về c&aacute;c b&igrave;nh luận n&oacute;i tục, chửi thề, hoặc n&oacute;i tục chửi thề n&oacute;i chung. Nếu mọi người c&oacute; th&igrave; gi&uacute;p đỡ em, em cảm ơn mọi người.</p>",
+  "tags": [
+    "AI"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014841158"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014841158"
+    }
+  },
+  "slug": "tim-du-lieu-tieng-viet",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f50daeec92ffc1736db1"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689ca"
+  },
+  "title": "[KOTLIN] Expandable.setOnChildClickListener không hoạt động !!",
+  "content": "<p>đ&acirc;y l&agrave; code của t&ocirc;i, khi t&ocirc;i sử dụng &lt;ExpandableListview&gt;, h&agrave;m setOnChildClickListener kh&ocirc;ng hoạt động, c&aacute;c h&agrave;m setOnGroupExpandListener, Collap vẫn hoạt động b&igrave;nh thường, dưới đ&acirc;y l&agrave; code của t&ocirc;i, nhờ mọi người gi&uacute;p đỡ, cảm ơn tất cả mọi người !!</p>",
+  "tags": [
+    "kotlin"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676014861230"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676014861230"
+    }
+  },
+  "slug": "kotlin-expandable-setonchildclicklistener-khong-hoat-dong",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f642aeec92ffc1736dbe"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689d6"
+  },
+  "title": "Ant modal trong vue3 vite không hoạt động",
+  "content": "<p>Mọi người cho em hỏi l&agrave; ant modal nếu t&aacute;ch th&agrave;nh component th&igrave; n&oacute; lại kh&ocirc;ng hoạt động ạ. Đ&acirc;y l&agrave; file test.vue chứa modal</p>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>&lt;script setup lang=\"ts\"&gt;\r\nimport { reactive, computed, defineProps, defineEmits} from \"vue\";\r\n\r\nlet { visible } = defineProps({visible: {type: Boolean, required: true}})\r\nconst emit = defineEmits(['closeModal'])\r\n\r\n// const state = reactive&lt;any&gt;({\r\n//   visible: false,\r\n// });\r\n\r\n\r\nconst visibleModal = computed({\r\n    get() {\r\n      return visible;\r\n    },\r\n    set(value) {\r\n        emit('closeModal');\r\n    }\r\n})\r\n\r\n&lt;/script&gt;\r\n\r\n&lt;template&gt;\r\n  &lt;div&gt;\r\n    &lt;a-modal v-model:visible=\"visibleModal\" title=\"Basic Modal\"&gt;\r\n        {{ visibleModal  }}\r\n      &lt;p&gt;Some contents...&lt;/p&gt;\r\n      &lt;p&gt;Some contents...&lt;/p&gt;\r\n      &lt;p&gt;Some contents...&lt;/p&gt;\r\n    &lt;/a-modal&gt;\r\n  &lt;/div&gt;\r\n&lt;/template&gt;</code></pre>\r\n</div>\r\n<div class=\"ddict_btn\" style=\"top: 573.4px; left: -1.99941e+06px;\"><img src=\"chrome-extension://bpggmmljdiliancllaapiggllnkbjocb/logo/48.png\"></div>",
+  "tags": [
+    "vue"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015170808"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015170808"
+    }
+  },
+  "slug": "ant-modal-trong-vue3-vite-khong-hoat-dong",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f658aeec92ffc1736dcb"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689c4"
+  },
+  "title": "khó lắm=) giải đi",
+  "content": "<ul>\r\n<li>D&ugrave;ng NNLT C++ để tạo bảng chọn như h&igrave;nh dưới đ&acirc;y.\r\n<ul>\r\n<li>Ứng với ph&iacute;m 1 cho ph&eacute;p nhập a, b, c (0 &le; a, b, c &le; 10^12) rồi th&ocirc;ng b&aacute;o c&oacute; phải l&agrave; chiều d&agrave;i ba cạnh của tam gi&aacute;c hay kh&ocirc;ng, nếu đ&uacute;ng th&igrave; in ra chu vi của tam gi&aacute;c ngược lại th&igrave; nhập lại 3 số a, b, c.</li>\r\n<li>Với ph&iacute;m 2, cho ph&eacute;p nhập hai số a, b (0 &le; a, b &le; 10^18) in ra m&agrave;n h&igrave;nh diện t&iacute;ch, chu vi của h&igrave;nh chữ nhật, mỗi số một d&ograve;ng.</li>\r\n<li>Với ph&iacute;m 3, cho ph&eacute;p nhập số r từ b&agrave;n ph&iacute;m (0 &le; r &le; 10^12) rồi in ra m&agrave;n h&igrave;nh diện t&iacute;ch, chu vi h&igrave;nh tr&ograve;n với r vừa nhập.&nbsp;<a href=\"https://images.viblo.asia/4b58e0f0-55f7-4740-bbdb-1c008c216f27.png\" target=\"_blank\" rel=\"noopener\">image.png</a></li>\r\n</ul>\r\n</li>\r\n</ul>",
+  "tags": [
+    "c++"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015192163"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015192163"
+    }
+  },
+  "slug": "kho-lam-giai-di",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f672aeec92ffc1736dd8"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a36"
+  },
+  "title": "Setting schedule laravel monthlyOn",
+  "content": "<p>Ch&agrave;o c&aacute;c b&aacute;c, em đang setting batch như sau</p>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>$schedule-&gt;command('command:name')-&gt;monthlyOn(30);\r\n</code></pre>\r\n<button class=\"v-markdown-it-code-copy\" style=\"box-sizing: border-box; border-radius: 5px; margin: 0px; font-family: inherit; font-size: inherit; line-height: inherit; overflow: visible; text-transform: none; appearance: button; position: absolute; display: flex; align-items: center; justify-content: center; top: 7.5px; right: 6px; cursor: pointer; outline: none; border: none; background: rgb(101, 84, 84); height: 25px; opacity: 0.5;\" title=\"Sao ch&eacute;p\" data-clipboard-text=\"$schedule-&gt;command('command:name')-&gt;monthlyOn(30);\r\n\"></button></div>\r\n<p>em search thử nếu l&agrave; th&aacute;ng 2 th&igrave; n&oacute; sẽ bỏ qua hay chạy v&agrave;o ng&agrave;y cuối c&ugrave;ng của th&aacute;ng m&agrave; kh&ocirc;ng ra c&acirc;u trả lời, mong mấy b&aacute;c khai s&aacute;ng gi&uacute;p em, cảm ơn c&aacute;c b&aacute;c</p>",
+  "tags": [
+    "laravel"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015218342"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015218342"
+    }
+  },
+  "slug": "setting-schedule-laravel-monthlyon",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f68baeec92ffc1736de5"
+  },
+  "author": {
+    "$oid": "63e45e471778e507707689f7"
+  },
+  "title": "Nginx không thể connect được TCP server trên AWS ECS",
+  "content": "<p>Ch&agrave;o mọi người, m&igrave;nh đang deploy Rails app l&ecirc;n AWS ECS bằng auto deploy th&ocirc;ng qua github actions v&agrave; ECR. C&aacute;c container m&igrave;nh đ&atilde; build ở local v&agrave; chạy ổn rồi. M&igrave;nh config github actions để đẩy l&ecirc;n ECR v&agrave; ECS đ&atilde; th&agrave;nh c&ocirc;ng, c&aacute;c config về container name trong task definition m&igrave;nh cũng xử l&iacute; đ&uacute;ng hết, nhưng khi truy cập đến service th&ocirc;ng qua Nginx th&igrave; Service ECS \"die\" v&agrave; khi check log của Cloudwatch th&igrave; ph&aacute;t hiện log như thế n&agrave;y:</p>\r\n<p>Mặc d&ugrave; trước đấy ở local m&igrave;nh đ&atilde; build v&agrave; nginx serve ngon l&agrave;nh. ........................................................................</p>\r\n<p>Đ&acirc;y l&agrave; file docker-compose.yml của m&igrave;nh</p>",
+  "tags": [
+    "linux"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015243173"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015243173"
+    }
+  },
+  "slug": "nginx-khong-the-connect-duoc-tcp-server-tren-aws-ecs",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f69eaeec92ffc1736df2"
+  },
+  "author": {
+    "$oid": "63e45e471778e507707689f1"
+  },
+  "title": "Maximum execution time of 60 seconds exceeded",
+  "content": "<p>Ch&agrave;o anh em. M&igrave;nh c&oacute; vấn đề t&iacute; cần hỏi<br>Khi m&igrave;nh cho chạy 1 phương thức GET để lấy dữ liệu về th&igrave; Laravel lại b&aacute;o Maximum execution time of 60 seconds exceeded, l&agrave;m dữ liệu m&igrave;nh về kh&ocirc;ng đủ.<br>C&oacute; c&aacute;ch n&agrave;o để khắc phục vấn đề n&agrave;y kh&ocirc;ng anh em?<br>Cảm ơn đ&atilde; đọc b&agrave;i viết. Cảm ơn admin duyệt b&agrave;i</p>",
+  "tags": [
+    "laravel"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015262372"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015262372"
+    }
+  },
+  "slug": "maximum-execution-time-of-60-seconds-exceeded",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f6baaeec92ffc1736dff"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a3c"
+  },
+  "title": "Kiếm dữ liệu cho hoạt động giao thông hàng ngày (tắc đường, tử vong...) tại các tỉnh thành Việt Nam",
+  "content": "<p>X</p>\r\n<div class=\"col-lg-9 pl-md-0\" data-v-00343c97=\"\">\r\n<div class=\"question-content-wrapper\" data-v-00343c97=\"\">\r\n<div class=\"mt-md-1\">\r\n<div class=\"md-contents\">\r\n<p>in ch&agrave;o! M&igrave;nh đang tập một m&ocirc; h&igrave;nh để dự đo&aacute;n ở khung đường n&agrave;o tại th&agrave;nh phố/quận huyện n&agrave;o th&igrave; sẽ c&oacute; khả năng tắc đường v&agrave; tử vong nhất tại Việt Nam. C&aacute;c bạn c&oacute; ai biết kiếm dữ liệu li&ecirc;n quan n&agrave;y ở đ&acirc;u kh&ocirc;ng? M&igrave;nh cảm ơn nh&eacute;.</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"ddict_div\" style=\"top: 125.6px; max-width: 150px; left: 8.8px;\"><img class=\"ddict_audio\" src=\"chrome-extension://bpggmmljdiliancllaapiggllnkbjocb/img/audio.png\">\r\n<p class=\"ddict_sentence\">Đăng c&acirc;u trả lời</p>\r\n</div>",
+  "tags": [
+    "machine learning"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015290077"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015290077"
+    }
+  },
+  "slug": "kiem-du-lieu-cho-hoat-dong-giao-thong-hang-ngay-tac-duong-tu-vong-tai-cac-tinh-thanh-viet-nam",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f6ccaeec92ffc1736e0c"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a0c"
+  },
+  "title": "Tại sao mongodb họ lại bắt tạo replica set thì mới cho sử dụng transaction?",
+  "content": "<p>Tại sao mongodb họ lại bắt tạo replica set th&igrave; mới cho sử dụng transaction? Trong khi MySQL họ cho sử dụng lu&ocirc;n m&agrave; kh&ocirc;ng cần config th&ecirc;m g&igrave; cả, mặc d&ugrave; m&igrave;nh biết tạo replica th&igrave; n&oacute; sẽ đảm bảo t&iacute;nh li&ecirc;n tục v&agrave; sẵn s&agrave;ng cao nhưng config th&ecirc;m phần n&agrave;o l&agrave; tăng độ kh&oacute; cho người d&ugrave;ng phần đ&oacute; rồi đ&uacute;ng kh&ocirc;ng mọi người&nbsp;<img class=\"emoji\" draggable=\"false\" src=\"https://twemoji.maxcdn.com/2/72x72/1f604.png\" alt=\"😄\"></p>",
+  "tags": [
+    "mongo"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015308510"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015308510"
+    }
+  },
+  "slug": "tai-sao-mongodb-ho-lai-bat-tao-replica-set-thi-moi-cho-su-dung-transaction",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f6e4aeec92ffc1736e19"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a06"
+  },
+  "title": "Cách test qr-code payment của Vnpay",
+  "content": "<p>Em đang l&agrave;m project sự dụng thanh to&aacute;n online bằng VNpay(<a href=\"https://sandbox.vnpayment.vn/apis/vnpay-demo/\" target=\"_blank\" rel=\"noopener\">https://sandbox.vnpayment.vn/apis/vnpay-demo/</a>). Test với thẻ thường b&ecirc;n vnpay cung cấp th&igrave; được rồi nhưng e thấy n&oacute; c&oacute; cả qr-code nữa nhưng đọc docs th&igrave; k c&oacute; hướng dẫn test. Mn c&oacute; c&aacute;ch n&agrave;o để test k ạ, em thử d&ugrave;ng tk ng&acirc;n h&agrave;ng thật test th&igrave; tiền vẫn trừ nhưng k c&oacute; v&agrave;o merchant&nbsp;<img class=\"emoji\" draggable=\"false\" src=\"https://twemoji.maxcdn.com/2/72x72/1f603.png\" alt=\"😃\">)</p>",
+  "tags": [
+    "laravel"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015332595"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015332595"
+    }
+  },
+  "slug": "cach-test-qr-code-payment-cua-vnpay",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f6fcaeec92ffc1736e26"
+  },
+  "author": {
+    "$oid": "63e45e471778e507707689fa"
+  },
+  "title": "hỏi cách để post câu hỏi ở wikipedia",
+  "content": "<div class=\"col-lg-9 pl-md-0\" data-v-00343c97=\"\">\r\n<div class=\"question-content-wrapper\" data-v-00343c97=\"\">\r\n<div class=\"mt-md-1\">\r\n<div class=\"md-contents\">\r\n<p>c&aacute;c bạn ơi mấy th&aacute;ng nay m&igrave;nh kh&ocirc;ng l&agrave;m g&igrave; wikipedia,kh&ocirc;ng x&uacute;c phạm ai trong đ&oacute; m&agrave; sao giờ v&ocirc; đ&oacute; kh&ocirc;ng post c&acirc;u hỏi được,định post c&acirc;u hỏi th&igrave; bị b&aacute;o l&agrave; bị cấm ip ,l&agrave;m sao để post c&acirc;u hỏi được v&agrave; kh&ocirc;ng c&ograve;n bị cấm ip</p>\r\n</div>\r\n</div>\r\n</div>\r\n<div class=\"pt-1\" data-v-00343c97=\"\">&nbsp;</div>\r\n</div>",
+  "tags": [
+    "IT"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015356919"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015356919"
+    }
+  },
+  "slug": "h-i-cach-de-post-cau-h-i-o-wikipedia",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f714aeec92ffc1736e33"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a27"
+  },
+  "title": "Giúp em về Cron job Task Scheduler trong laravel với các anh :(((",
+  "content": "<p>Ch&agrave;o anh em trong group ạ.<br>Em đang build 1 app get api từ website kh&aacute;c về.<br>C&ograve;n bị vướng 1 chức năng nữa l&agrave; c&oacute; thể tự động chạy mỗi 1 ng&agrave;y, 3 ng&agrave;y, 1 tuần,..... cho mỗi project kh&aacute;c nhau.<br>Em c&oacute; t&igrave;m hiểu v&agrave; c&oacute; keyword l&agrave; Cron job, Task Scheduler nhưng kh&ocirc;ng &aacute;p dụng được.<br>Anh em gi&uacute;p em với ạ. Em viết tr&ecirc;n laravel 9. Cảm ơn anh em !!!!</p>",
+  "tags": [
+    "cron"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015380461"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015380461"
+    }
+  },
+  "slug": "giup-em-ve-cron-job-task-scheduler-trong-laravel-voi-cac-anh",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f726aeec92ffc1736e40"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a3c"
+  },
+  "title": "Thay đổi input/output khi record bằng sounddevice trong python?",
+  "content": "<p>M&igrave;nh đang d&ugrave;ng thư viện sounddevice trong python để record, nhưng độ trễ l&uacute;c bắt đầu record l&agrave; khoảng 0.01s, khi gh&eacute;p audio lại vẫn bị mất tiếng. Show c&aacute;c device như tr&ecirc;n ảnh ấy th&igrave; c&oacute; 3 device cuối c&oacute; latency thấp, m&agrave; m&igrave;nh k biết d&ugrave;ng như n&agrave;o. Lệnh&nbsp;<code>sd.default.device</code>&nbsp;th&igrave; đổi được device nhưng khi chạy lại bị lỗi. Mn biết c&aacute;ch n&agrave;o sd được c&aacute;c device n&agrave;y.</p>",
+  "tags": [
+    "python"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015398613"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015398613"
+    }
+  },
+  "slug": "thay-doi-input-output-khi-record-bang-sounddevice-trong-python",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f73eaeec92ffc1736e4d"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689cd"
+  },
+  "title": "Filter theo Quý( 3 tháng bằng 1 quý) trong react js",
+  "content": "<p>Em ch&agrave;o mọi người ạ. Hiện tại em đang mắc một v&agrave;i vấn để với dự &aacute;n m&agrave; em đang theo, đ&oacute; l&agrave; l&agrave; em c&oacute; 1 api kh&aacute;ch h&agrave;ng, nhưng em cần filter theo qu&yacute; trong data đ&oacute; xem trong qu&yacute; đ&oacute; c&oacute; bao nhi&ecirc;u kh&aacute;ch h&agrave;ng v&agrave; bao nhi&ecirc;u giao dịch, th&igrave; em cần l&agrave;m như thế n&agrave;o ạ, mọi người gi&uacute;p em với ạ Em cảm ơn.</p>",
+  "tags": [
+    "reactjs"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015422877"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015422877"
+    }
+  },
+  "slug": "filter-theo-quy-3-thang-bang-1-quy-trong-react-js",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f75caeec92ffc1736e5a"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689c7"
+  },
+  "title": "Làm thế nào biết record được tạo ra khi nào?",
+  "content": "<p>Ch&agrave;o mn,</p>\r\n<p>M&igrave;nh c&oacute; redcord trong mysql nhưng kh&ocirc;ng c&oacute; field date, c&oacute; c&aacute;ch n&agrave;o c&oacute; thể biết record đ&oacute; tạo khi n&agrave;o kh&ocirc;ng?</p>\r\n<p>Tks c&aacute;c b&aacute;c.</p>",
+  "tags": [
+    "database"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015452716"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015452716"
+    }
+  },
+  "slug": "lam-the-nao-biet-record-duoc-tao-ra-khi-nao",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f76daeec92ffc1736e67"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689c4"
+  },
+  "title": "Position sticky không hoạt động được khi component cha chứa overflow:scroll",
+  "content": "<p>Hello mn, e đang gặp trường hợp l&agrave; position sticky kh&ocirc;ng d&ugrave;ng được khi component cha chứa overflow scroll ạ. L&agrave;m sao để vừa sticky component con nhưng vẫn scroll được component cha ạ. Hi vọng mn gi&uacute;p em. Many thanks.</p>",
+  "tags": [
+    "css"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015469453"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015469453"
+    }
+  },
+  "slug": "position-sticky-khong-hoat-dong-duoc-khi-component-cha-chua-overflow-scroll",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f789aeec92ffc1736e74"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689eb"
+  },
+  "title": "có ai đã làm kết nối socket cho apple tv chưa",
+  "content": "<p>c&oacute; ai đ&atilde; l&agrave;m kết nối socket cho apple tv chưa</p>",
+  "tags": [
+    "apple"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015497190"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015497190"
+    }
+  },
+  "slug": "co-ai-da-lam-ket-noi-socket-cho-apple-tv-chua",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f797aeec92ffc1736e81"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a15"
+  },
+  "title": "hỏi cài django ở host pythonanywhere",
+  "content": "<p>mọi người cho m&igrave;nh hỏi ngo&agrave;i đ&oacute;ng th&ecirc;m tiền cho host pythonanywhere c&ograve;n c&oacute; c&aacute;ch n&agrave;o để khi c&agrave;i django trong pythonanywhere th&igrave; m&igrave;nh c&oacute; thể tạo nhiều app</p>",
+  "tags": [
+    "python"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015511861"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015511861"
+    }
+  },
+  "slug": "h-i-cai-django-o-host-pythonanywhere",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f7a7aeec92ffc1736e8e"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689e5"
+  },
+  "title": "Hỏi về xây dựng website",
+  "content": "<p>Ch&agrave;o mọi người, m&igrave;nh đang c&oacute; &yacute; định build 1 c&ocirc;ng cụ x&acirc;y dựng website cho user c&oacute; thể tự tạo được website như wordpress,... Cho m&igrave;nh hỏi mọi người thường d&ugrave;ng thư viện n&agrave;o để x&acirc;y dựng vậy. M&igrave;nh c&oacute; search th&igrave; thấy c&oacute;&nbsp;<code>GrapesJS</code>. Tks mn</p>",
+  "tags": [
+    "js"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015527583"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015527583"
+    }
+  },
+  "slug": "h-i-ve-xay-dung-website",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f7c2aeec92ffc1736e9b"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a21"
+  },
+  "title": "Binding prop trong Vue Typescript",
+  "content": "<p>Xin ch&agrave;o mọi người M&igrave;nh đang học vue v&agrave; đang l&agrave;m project cơ bản để học n&oacute; M&igrave;nh d&ugrave;ng vue 3 v&agrave; typescript M&igrave;nh đang c&oacute; một component MenuItem c&oacute; type cơ bản như sau</p>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>interface MenuItemProps {\r\n  title: string;\r\n  to?: string | '';\r\n  icon?: IconName | '';\r\n}\r\nwithDefaults(defineProps&lt;MenuItemProps&gt;(), {\r\n  to: '',\r\n  icon: '',\r\n});\r\n</code></pre>\r\n<button class=\"v-markdown-it-code-copy\" style=\"box-sizing: border-box; border-radius: 5px; margin: 0px; font-family: inherit; font-size: inherit; line-height: inherit; overflow: visible; text-transform: none; appearance: button; position: absolute; display: flex; align-items: center; justify-content: center; top: 7.5px; right: 6px; cursor: pointer; outline: none; border: none; background: rgb(101, 84, 84); height: 25px; opacity: 0.5;\" title=\"Sao ch&eacute;p\" data-clipboard-text=\"interface MenuItemProps {\r\n  title: string;\r\n  to?: string | '';\r\n  icon?: IconName | '';\r\n}\r\nwithDefaults(defineProps&lt;MenuItemProps&gt;(), {\r\n  to: '',\r\n  icon: '',\r\n});\r\n\"></button></div>\r\n<p>1 prop required v&agrave; 2 prop optional =&gt; Ở đ&acirc;y m&igrave;nh muốn vừa l&agrave; link vừa l&agrave; item normal cho c&aacute;c action như show modal v&agrave; change language.</p>\r\n<p>Ở component Menu m&igrave;nh gọi n&oacute; như sau</p>\r\n<div class=\"v-markdown-content-box\" style=\"box-sizing: border-box; max-height: 300px; padding-bottom: 1rem; cursor: pointer; -webkit-mask-image: linear-gradient(rgb(0, 0, 0) 60%, transparent); color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>export const BASE_MENU: BaseMenu[] = [\r\n  {\r\n    icon: 'language',\r\n    title: 'Language',\r\n    languages: languages.map((lang) =&gt; ({\r\n      title: lang.title,\r\n      lang: lang.lang,\r\n    })),\r\n  },\r\n  {\r\n    icon: 'help',\r\n    title: 'Help',\r\n  },\r\n];\r\n\r\ninterface MenuItem {\r\n  title: string;\r\n  icon: IconName;\r\n}\r\n\r\nexport interface MenuItemLink extends MenuItem {\r\n  to: string;\r\n}\r\n\r\nexport interface MenuItemLangue extends Omit&lt;MenuItem, 'icon'&gt; {\r\n  languages?: {\r\n    title: string;\r\n    lang: string;\r\n  }[];\r\n}\r\n\r\nexport type BaseMenu = MenuItemLangue &amp; Partial&lt;Pick&lt;MenuItemLink, 'to' | 'icon'&gt;&gt;;\r\n\r\ntype Menu = BaseMenu[] | MenuItemLangue;\r\n\r\nconst menuItems = reactive&lt;{ data: Menu }&gt;({ data: props.items });\r\n\r\nconst handleChange = (item: BaseMenu, _evt: Event) =&gt; {\r\n  if (item.icon === 'language') {\r\n    menuItems.data = item;\r\n  } \r\n  ...\r\n};\r\n\r\n...\r\n &lt;MenuItem\r\n              v-for=\"(item, index) in currentMenuList\"\r\n              :key=\"index\"\r\n              :to=\"item.to\" \r\n             :icon=\"item.icon\"\r\n              @onClick=\"(event) =&gt; handleChange(item, event)\"\r\n/&gt;\r\n\r\n</code></pre>\r\n<button class=\"v-markdown-it-code-copy\" style=\"box-sizing: border-box; border-radius: 5px; margin: 0px; font-family: inherit; font-size: inherit; line-height: inherit; overflow: visible; text-transform: none; appearance: button; position: absolute; display: flex; align-items: center; justify-content: center; top: 7.5px; right: 6px; cursor: pointer; outline: none; border: none; background: rgb(101, 84, 84); height: 25px; opacity: 0.5;\" title=\"Sao ch&eacute;p\"></button>\r\n<div class=\"v-content-flex-center\">&nbsp;</div>\r\n</div>\r\n<p>Ở đ&acirc;y m&igrave;nh muốn l&agrave; l&agrave; khi bấm v&agrave;o c&aacute;i menu item language th&igrave; render list languages.</p>\r\n<p>Ở đ&acirc;y th&igrave; mỗi item trong currentMenuList n&oacute; sẽ c&oacute; 2 type l&agrave;</p>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>{ languages?: { title: string; lang: string; }[] | undefined; title: string; to?: string | undefined; icon?: IconName | undefined; } | { title: string; lang: string; }\r\n</code></pre>\r\n<button class=\"v-markdown-it-code-copy\" title=\"Sao ch&eacute;p\" data-clipboard-text=\"{ languages?: { title: string; lang: string; }[] | undefined; title: string; to?: string | undefined; icon?: IconName | undefined; } | { title: string; lang: string; }\r\n\"></button></div>\r\n<p>L&uacute;c n&agrave;y m&igrave;nh passing&nbsp;<code>:to=\"item.to\" :icon=\"item.icon\"</code>&nbsp;th&igrave; typescript lỗi l&agrave;&nbsp;<code>Property 'icon' does not exist on type '{ title: string; lang: string; }'</code></p>\r\n<p>L&uacute;c n&agrave;y m&igrave;nh search gg thử th&igrave; c&oacute; thấy d&ugrave;ng v-bind.</p>\r\n<p>M&igrave;nh lại thử như n&agrave;y th&igrave; vẫn lỗi&nbsp;<code>v-bind=\"{ to: item?.to || '', icon: item?.icon || '', title: item.title }\"</code></p>\r\n<p>M&igrave;nh lại tiếp tục thử kiểu n&agrave;y.</p>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>&lt;MenuItem\r\n              v-for=\"(item, index) in currentMenuList\"\r\n              :key=\"index\"\r\n              v-bind=\"item\"\r\n              @onClick=\"(event) =&gt; handleChange(item, event)\"\r\n            /&gt;\r\n</code></pre>\r\n<button class=\"v-markdown-it-code-copy\" style=\"box-sizing: border-box; border-radius: 5px; margin: 0px; font-family: inherit; font-size: inherit; line-height: inherit; overflow: visible; text-transform: none; appearance: button; position: absolute; display: flex; align-items: center; justify-content: center; top: 7.5px; right: 6px; cursor: pointer; outline: none; border: none; background: rgb(101, 84, 84); height: 25px; opacity: 0.5;\" title=\"Sao ch&eacute;p\"></button></div>\r\n<p>V&acirc;ng thế n&agrave;y th&igrave; n&oacute; hết lỗi. Nhưng c&oacute; vẽ kh&ocirc;ng hay lắm, kh&oacute; biết được props m&igrave;nh passing.</p>\r\n<p>Mọi người c&oacute; c&aacute;ch n&agrave;o binding m&agrave; kh&ocirc;ng d&iacute;nh lỗi type kh&ocirc;ng ạ</p>",
+  "tags": [
+    "vuejs"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015554373"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015554373"
+    }
+  },
+  "slug": "binding-prop-trong-vue-typescript",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f7e1aeec92ffc1736ea8"
+  },
+  "author": {
+    "$oid": "63e45e461778e507707689e8"
+  },
+  "title": "Hỏi về hàm dispatch Job trong laravel",
+  "content": "<div class=\"col-lg-9 pl-md-0\" data-v-00343c97=\"\">\r\n<div class=\"question-content-wrapper\" data-v-00343c97=\"\">\r\n<div class=\"mt-md-1\">\r\n<div class=\"md-contents\">\r\n<p>Ch&agrave;o mọi người, hiện tại m&igrave;nh đang l&agrave;m 1 project c&oacute; sử dụng h&agrave;ng đợi. M&igrave;nh d&ugrave;ng h&agrave;ng đợi connection. Ở sever m&igrave;nh d&ugrave;ng supervisor. Hiện tại khi m&igrave;nh call API th&igrave; sau khi l&agrave;m xong n&oacute; sẽ call h&agrave;m:</p>\r\n<div style=\"box-sizing: border-box; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>                dispatch(new \\App\\Jobs\\createSqlJob($databaseName, $data['company_name']));\r\n</code></pre>\r\n<button class=\"v-markdown-it-code-copy\" title=\"Sao ch&eacute;p\" data-clipboard-text=\"                dispatch(new \\App\\Jobs\\createSqlJob($databaseName, $data['company_name']));\r\n\"></button></div>\r\n<p>Nhưng khi m&igrave;nh check lại table failed_jobs trong db th&igrave; ph&aacute;t hiện n&oacute; chạy lỗi v&agrave; b&aacute;o exception sau:</p>\r\n<div class=\"v-markdown-content-box\" style=\"box-sizing: border-box; max-height: 300px; padding-bottom: 1rem; cursor: pointer; -webkit-mask-image: linear-gradient(rgb(0, 0, 0) 60%, transparent); position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>| 2022-12-13 21:36:38 | Exception: Job is incomplete class: {\"__PHP_Incomplete_Class_Name\":\"App\\\\Jobs\\\\createSqlJob\",\"afterCommit\":true} in /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/CallQueuedHandler.php:116\r\nStack trace:\r\n#0 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/CallQueuedHandler.php(69): Illuminate\\Queue\\CallQueuedHandler-&gt;dispatchThroughMiddleware()\r\n#1 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Jobs/Job.php(98): Illuminate\\Queue\\CallQueuedHandler-&gt;call()\r\n#2 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(428): Illuminate\\Queue\\Jobs\\Job-&gt;fire()\r\n#3 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(378): Illuminate\\Queue\\Worker-&gt;process()\r\n#4 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(172): Illuminate\\Queue\\Worker-&gt;runJob()\r\n#5 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php(130): Illuminate\\Queue\\Worker-&gt;daemon()\r\n#6 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php(114): Illuminate\\Queue\\Console\\WorkCommand-&gt;runWorker()\r\n#7 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Queue\\Console\\WorkCommand-&gt;handle()\r\n#8 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()\r\n#9 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()\r\n#10 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()\r\n#11 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\\Container\\BoundMethod::call()\r\n#12 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container-&gt;call()\r\n#13 /var/www/NTTJob/vendor/symfony/console/Command/Command.php(308): Illuminate\\Console\\Command-&gt;execute()\r\n#14 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command-&gt;run()\r\n#15 /var/www/NTTJob/vendor/symfony/console/Application.php(1002): Illuminate\\Console\\Command-&gt;run()\r\n#16 /var/www/NTTJob/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application-&gt;doRunCommand()\r\n#17 /var/www/NTTJob/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application-&gt;doRun()\r\n#18 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application-&gt;run()\r\n#19 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application-&gt;run()\r\n#20 /var/www/NTTJob/artisan(37): Illuminate\\Foundation\\Console\\Kernel-&gt;handle()\r\n#21 {main} |\r\n\r\n</code></pre>\r\n<button class=\"v-markdown-it-code-copy\" style=\"box-sizing: border-box; border-radius: 5px; margin: 0px; font-family: inherit; font-size: inherit; line-height: inherit; overflow: visible; text-transform: none; appearance: button; position: absolute; display: flex; align-items: center; justify-content: center; top: 7.5px; right: 6px; cursor: pointer; outline: none; border: none; background: rgb(101, 84, 84); height: 25px; opacity: 0.5;\" title=\"Sao ch&eacute;p\" data-clipboard-text=\"| 2022-12-13 21:36:38 | Exception: Job is incomplete class: {&quot;__PHP_Incomplete_Class_Name&quot;:&quot;App\\\\Jobs\\\\createSqlJob&quot;,&quot;afterCommit&quot;:true} in /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/CallQueuedHandler.php:116\r\nStack trace:\r\n#0 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/CallQueuedHandler.php(69): Illuminate\\Queue\\CallQueuedHandler-&gt;dispatchThroughMiddleware()\r\n#1 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Jobs/Job.php(98): Illuminate\\Queue\\CallQueuedHandler-&gt;call()\r\n#2 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(428): Illuminate\\Queue\\Jobs\\Job-&gt;fire()\r\n#3 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(378): Illuminate\\Queue\\Worker-&gt;process()\r\n#4 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Worker.php(172): Illuminate\\Queue\\Worker-&gt;runJob()\r\n#5 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php(130): Illuminate\\Queue\\Worker-&gt;daemon()\r\n#6 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php(114): Illuminate\\Queue\\Console\\WorkCommand-&gt;runWorker()\r\n#7 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate\\Queue\\Console\\WorkCommand-&gt;handle()\r\n#8 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()\r\n#9 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()\r\n#10 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()\r\n#11 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\\Container\\BoundMethod::call()\r\n#12 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container-&gt;call()\r\n#13 /var/www/NTTJob/vendor/symfony/console/Command/Command.php(308): Illuminate\\Console\\Command-&gt;execute()\r\n#14 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command-&gt;run()\r\n#15 /var/www/NTTJob/vendor/symfony/console/Application.php(1002): Illuminate\\Console\\Command-&gt;run()\r\n#16 /var/www/NTTJob/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application-&gt;doRunCommand()\r\n#17 /var/www/NTTJob/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application-&gt;doRun()\r\n#18 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application-&gt;run()\r\n#19 /var/www/NTTJob/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application-&gt;run()\r\n#20 /var/www/NTTJob/artisan(37): Illuminate\\Foundation\\Console\\Kernel-&gt;handle()\r\n#21 {main} |\r\n\r\n\"></button>\r\n<div class=\"v-content-flex-center\">&nbsp;</div>\r\n</div>\r\n<p>M&igrave;nh ko biết đ&acirc;y l&agrave; lỗi g&igrave;, mong mọi người ai c&oacute; biết th&igrave; gi&uacute;p m&igrave;nh với ạ. M&igrave;nh c&aacute;m ơn</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+  "tags": [
+    "laravel"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015585287"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015585287"
+    }
+  },
+  "slug": "h-i-ve-ham-dispatch-job-trong-laravel",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f815aeec92ffc1736f51"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a3f"
+  },
+  "title": "[Rails] Tạo và quản lý jobs với dynamic thời gian chạy job và Timezone",
+  "content": "<p>Xin ch&agrave;o mọi người, m&igrave;nh đang c&oacute; một b&agrave;i to&aacute;n về việc tạo job trong ruby on rails như sau, xin &yacute; kiến thảo luận giải ph&aacute;p hay từ mọi người. Ứng dụng cho ph&eacute;p người d&ugrave;ng đặt lịch (schedule) để chạy một chiến dịch quảng c&aacute;o theo ng&agrave;y. Người d&ugrave;ng c&oacute; thể lựa chọn timezone tạo job, giờ bắt đầu chạy job, giờ kết th&uacute;c job trong một ng&agrave;y v&agrave; lựa chọn chạy lặp thời gian/lần.</p>\r\n<p>V&iacute; dụ: Tạo một job chạy v&agrave;o c&aacute;c ng&agrave;y thứ 3, 4, 6. Giờ bắt đầu chạy job: 9:00 AM #{Timezone}, kết th&uacute;c job: 14:00 #{Timezone}, trong khoảng thời gian chạy sẽ lặp 15ph/lần v&agrave; lịch sẽ chạy v&agrave;o tuần thứ 2 mỗi th&aacute;ng.</p>\r\n<p>M&igrave;nh định sẽ tạo một bảng db gọi l&agrave; schedule, lưu th&ocirc;ng tin job cần chạy. Sau đ&oacute; sẽ d&ugrave;ng một c&aacute;i job tổng to chạy hằng ng&agrave;y (vd 15ph/1 lần) để xem c&oacute; schedule n&agrave;o thảo m&atilde;n sẽ tạo một c&aacute;i job để chạy. C&aacute;ch n&agrave;y c&oacute; vẻ performance kh&ocirc;ng được cao. Xin kinh nghiệm giải quyết hay từ mọi người. Tks!</p>",
+  "tags": [
+    "ruby"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015637286"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015637286"
+    }
+  },
+  "slug": "rails-tao-va-quan-ly-jobs-voi-dynamic-thoi-gian-chay-job-va-timezone",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f842aeec92ffc1736f5e"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a03"
+  },
+  "title": "Làm sao để tảo một editor cho markdown giống viblo bằng nextjs?",
+  "content": "<p>Em đang muốn build một c&aacute;i editor cho trang blog c&aacute; nh&acirc;n bằng nextjs. Kh&ocirc;ng biết l&agrave; c&oacute; thư viện g&igrave; hỗ trợ kh&ocirc;ng ạ. Chứ build js chay th&igrave; trầy chật qu&aacute;&nbsp;<img class=\"emoji\" draggable=\"false\" src=\"https://twemoji.maxcdn.com/2/72x72/1f626.png\" alt=\"😦\">(</p>\r\n<p>Viblo th&igrave; sử dụng thư viện Simple MDE, ng&agrave;y trước m&igrave;nh cũng từng trả lời một bạn c&acirc;u hỏi n&agrave;y tr&ecirc;n Viblo. Bạn c&oacute; thể đọc lại c&acirc;u trả lời của m&igrave;nh tại:&nbsp;<a href=\"https://viblo.asia/a/J3ZgM9xL5mB\" target=\"_blank\" rel=\"noopener\">https://viblo.asia/a/J3ZgM9xL5mB</a></p>\r\n<p>Rất l&acirc;u về trước cũng c&oacute; một b&aacute;c viết b&agrave;i:&nbsp;<a href=\"https://viblo.asia/p/lam-trinh-soan-thao-giong-voi-viblo-Do754JBLZM6\" target=\"_blank\" rel=\"noopener\">L&agrave;m tr&igrave;nh soạn thảo giống Viblo</a>. Bạn thử đọc nh&eacute;.</p>\r\n<p>Ngo&agrave;i ra, c&oacute; nhiều editor kh&aacute;c cũng d&ugrave;ng markdown như Editor.js, Marktext. M&igrave;nh kh&aacute; l&agrave; th&iacute;ch editor của Marktext, khi d&ugrave;ng n&oacute; rất tiện v&agrave; trực quan hơi Editor hiện tại của Viblo. Đối với Marktext th&igrave; họ public editor đ&oacute; tại đ&acirc;y:&nbsp;<a href=\"https://github.com/marktext/muya\" target=\"_blank\" rel=\"noopener\">https://github.com/marktext/muya</a></p>",
+  "tags": [
+    "editor"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015682019"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015682019"
+    }
+  },
+  "slug": "lam-sao-de-tao-mot-editor-cho-markdown-giong-viblo-bang-nextjs",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f85aaeec92ffc1736f6b"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a18"
+  },
+  "title": "Biến thể của bài chia kẹo euler",
+  "content": "<p>C&oacute; bao nhi&ecirc;u c&aacute;ch để chia n vi&ecirc;n kẹo cho k đứa trẻ sao cho số kẹo của mỗi đứa trẻ được chia l&agrave; kh&aacute;c nhau v&agrave; mọi đứa trẻ đều phải c&oacute; kẹo.</p>\r\n<p>P/s: mong mọi người gi&uacute;p em</p>",
+  "tags": [
+    "AI"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015706709"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015706709"
+    }
+  },
+  "slug": "bien-the-cua-bai-chia-keo-euler",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5f86baeec92ffc1736f78"
+  },
+  "author": {
+    "$oid": "63e45e471778e507707689fa"
+  },
+  "title": "hỏi lỗi django trên freehost",
+  "content": "<p>m&igrave;nh kiếm được freehost n&agrave;y l&agrave;m django ,nhưng t&igrave;m hiểu m&atilde;i v&agrave; search google nữa m&agrave; vẫn kh&ocirc;ng fix được lỗi n&agrave;y do lần đầu sử dụng mong c&aacute;c bạn gi&uacute;p đỡ,trước đ&oacute; m&igrave;nh cũng thử ho&agrave;i m&agrave; kh&ocirc;ng được</p>",
+  "tags": [
+    "python"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676015723324"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676015723324"
+    }
+  },
+  "slug": "h-i-loi-django-tren-freehost",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5fb2faeec92ffc1736f85"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a0f"
+  },
+  "title": "Header của Application, Presentation, Session Layer trong mô hình OSI là gì ?",
+  "content": "<p>Cho em hỏi Header được gắn th&ecirc;m v&agrave;o data khi n&oacute; di chuyển qua 3 tầng Application, Presentation, Session Layer l&agrave; g&igrave; với ạ.</p>",
+  "tags": [
+    "backend"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676016431836"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676016431836"
+    }
+  },
+  "slug": "header-cua-application-presentation-session-layer-trong-mo-hinh-osi-la-gi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5fb3baeec92ffc1736f92"
+  },
+  "author": {
+    "$oid": "63e45e471778e50770768a0f"
+  },
+  "title": "hỏi host railway app",
+  "content": "<p>mọi ngưởi cho m&igrave;nh hỏi m&igrave;nh kiếm được host l&agrave;m django l&agrave; railway để l&agrave;m django ,sau đ&oacute; m&igrave;nh upload l&ecirc;n host django của m&igrave;nh từ trong m&aacute;y l&ecirc;n ,m&igrave;nh upload django l&ecirc;n github rồi kết nối n&oacute; với host m&agrave; sao web vẫn bị lỗi application error $port ,khi m&agrave; m&igrave;nh cấu h&igrave;nh host đ&oacute; l&agrave; port:8000 ?????????????????????</p>",
+  "tags": [
+    "python"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676016443876"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676016443876"
+    }
+  },
+  "slug": "h-i-host-railway-app",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5fb56aeec92ffc1736f9f"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a2d"
+  },
+  "title": "Check điều kiện bằng route params trong vue 3?",
+  "content": "<p>Em đang l&agrave;m trang Dashboard(Sử dụng Vue3) phần khung ban đầu c&oacute; 1 thanh nav tr&ecirc;n v&agrave; một thanh menu b&ecirc;n phải, v&agrave; c&aacute;i router view để điều hướng sẽ ở dưới, n&oacute; tr&ocirc;ng như thế n&agrave;y...</p>\r\n<p><strong>Đ&acirc;y l&agrave; phần code ở views</strong></p>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-javascript\" data-filename=\"\"><code>&lt;template&gt;\r\n  &lt;div class=\"flex h-screen bg-gray-50 dark:bg-gray-900\" id=\"app\"&gt;\r\n    &lt;Sidebar v-if=\"checklogin\" :isSideMenuOpen=\"isSideMenuOpen\" @close-side-menu=\"isSideMenuOpen = false\" /&gt;\r\n\r\n    &lt;div class=\"flex flex-col flex-1 w-full\"&gt;\r\n      &lt;Navigation v-if=\"checklogin\" @open-side-menu=\"isSideMenuOpen = !isSideMenuOpen\" /&gt;\r\n      &lt;div class=\"p-6 dark:text-white\"&gt;\r\n        &lt;RouterView /&gt;\r\n      &lt;/div&gt;\r\n    &lt;/div&gt;\r\n  &lt;/div&gt;\r\n&lt;/template&gt;</code></pre>\r\n</div>",
+  "tags": [
+    "vuejs"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676016470716"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676016470716"
+    }
+  },
+  "slug": "check-dieu-kien-bang-route-params-trong-vue-3",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5fb67aeec92ffc1736fac"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a39"
+  },
+  "title": "Can we connect multiple microphones to the computer",
+  "content": "<p>M&igrave;nh đang l&agrave;m một dự &aacute;n về audio processing, cần phải&nbsp;<strong>đ&aacute;nh nh&atilde;n c&aacute;c audio theo người n&oacute;i</strong>, mỗi người n&oacute;i v&agrave;o một mic. Theo như tr&ecirc;n thị trường th&igrave; m&igrave;nh kh&ocirc;ng t&igrave;m thấy loại thiết bị n&agrave;o c&oacute; thể kết n&oacute;i được nhiều mic v&agrave; xuất ra được audio c&ugrave;ng với cả th&ocirc;ng tin định danh của mic, mn c&oacute; biết thiết bị n&agrave;o l&agrave;m được k ạ. với cả tr&ecirc;n m&aacute;y t&iacute;nh th&igrave; m&igrave;nh check được th&ocirc;ng tin định danh của c&aacute;c thiết bị (mic, loa,...) bằng đoạn code sau:</p>\r\n<div style=\"box-sizing: border-box; color: rgb(27, 27, 27); font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; position: relative;\">\r\n<pre class=\"language-none\" data-filename=\"\"><code>import speech_recognition as sr\r\nimport pyaudio\r\n\r\nfor i in sr.Microphone.list_microphone_names(): \r\n    print(i)\r\nprint('-------------------------')\r\np = pyaudio.PyAudio()\r\n\r\nfor i in range(p.get_device_count()):\r\n    print(p.get_device_info_by_index(i))\r\np.terminate()</code></pre>\r\n</div>",
+  "tags": [
+    "python"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676016487357"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676016487357"
+    }
+  },
+  "slug": "can-we-connect-multiple-microphones-to-the-computer",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e5fb7faeec92ffc1736fb9"
+  },
+  "author": {
+    "$oid": "63e45e481778e50770768a3f"
+  },
+  "title": "nestjs Authentication and authoziration with jwt",
+  "content": "<div class=\"col-lg-9 pl-md-0\" data-v-00343c97=\"\">\r\n<div class=\"question-content-wrapper\" data-v-00343c97=\"\">\r\n<div class=\"mt-md-1\">\r\n<div class=\"md-contents\">\r\n<p>em đang l&agrave;m một ứng dụng resful-api vote c&aacute;c th&iacute; sinh bằng nestjs d&ugrave;ng typeorm vs mysql nhưng em đang mắc chỗ check Authentication with jwt, ai c&oacute; thể chỉ em logic phần đ&oacute; dc ko ạ, em đ&atilde; chả về được m&atilde; token nhưng chưa biết l&agrave;m g&igrave; tiếp theo mong được giải đ&aacute;p ạ</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+  "tags": [
+    "jwt"
+  ],
+  "pin": false,
+  "files": [],
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1676016511663"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1676016511663"
+    }
+  },
+  "slug": "nestjs-authentication-and-authoziration-with-jwt",
+  "__v": 0
+}]
