@@ -1,6 +1,6 @@
 const nodemailer = require("nodemailer");
 const os = require("os");
-let url = "https://cntt2-be.herokuapp.com/reset-password/"
+let url = "https://cntt2-fe.vercel.app/reset-password/"
 async function sendMail(receiver, otp) {
     let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
