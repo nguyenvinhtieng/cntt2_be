@@ -123,10 +123,7 @@ class PostController {
     // localhost:3001/api/post?page=5
     async getPagination(req, res, next) {
         try {
-            let filterCondition = {
-                status: "publish",
-            };
-            const posts = await Post.find({filterCondition})
+            const posts = await Post.find({status: "publish"})
                                     .sort({createdAt: -1})
                                     .populate('author')
                                     .lean();
