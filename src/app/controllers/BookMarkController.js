@@ -31,6 +31,7 @@ class BookMarkController {
       const user = req.user;
       try {
         const bookmarks = await Bookmark.find({user_id: user._id}).sort({createdAt: -1}).populate("post").lean();
+        console.log(bookmarks)
         for(const [index, b] of bookmarks.entries()) {
           const post = b.post;
           const votes = await PostVote.find({post_id: post._id});

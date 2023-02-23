@@ -6,6 +6,7 @@ const Comment = require("../models/Comment");
 const uploadImage = require("../../utils/uploadImage");
 const deleteImage = require("../../utils/deleteImage");
 const User = require("../models/User");
+const Bookmark = require("../models/Bookmark");
 
 class PostController {
     async get(req, res, next) {
@@ -186,7 +187,8 @@ class PostController {
             }
             await Post.findOneAndDelete({ _id: post_id});
             await PostVote.deleteMany({ post_id: post_id });
-            await Comment.deleteMany({ post_id: post_id })
+            await Comment.deleteMany({ post_id: post_id });
+            await Bookmark.deleteMany({ post: post_id });
             return res.json({ status: true, message: "Xóa bài viết thành công" });
         } catch (error) {
             console.log(error)
