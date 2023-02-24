@@ -114,13 +114,14 @@ class AuthController {
             }
             let userPasswordHash = user.password;
             let checkPassword = await bcrypt.compare(password, userPasswordHash);
-            console.log("Check password", checkPassword)
             if(!checkPassword) {
                 return res.json({status: false, message: "Tài khoản hoặc mật khẩu không đúng"});
             }
-
-            let token = jwt.sign({ user }, secret_key);
-            return res.json({status: true, message: "Đăng nhập thành công", token, user});
+            if(user.status == "active") {
+                let token = jwt.sign({ user }, secret_key);
+                return res.json({status: true, message: "Đăng nhập thành công", token, user});
+            }
+            return res.json({status: false, message: "Tài khoản của bạn đã bị khóa"});
         } catch(e) {
             console.log(e.message);
             return res.json({status: false, message: "Có lỗi xảy ra"});
