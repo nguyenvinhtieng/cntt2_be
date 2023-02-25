@@ -189,6 +189,7 @@ class PostController {
             await PostVote.deleteMany({ post_id: post_id });
             await Comment.deleteMany({ post_id: post_id });
             await Bookmark.deleteMany({ post: post_id });
+            await Report.deleteMany({ report_for: post_id});
             return res.json({ status: true, message: "Xóa bài viết thành công" });
         } catch (error) {
             console.log(error)
