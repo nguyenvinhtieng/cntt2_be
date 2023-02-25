@@ -54,7 +54,6 @@ class CommentController {
             }
             await Comment.findOneAndRemove({ _id: comment_id});
             await Comment.updateMany({ reply_id: comment_id }, { $set: { reply_id: null } });
-            await Report.deleteMany({ report_for: comment_id });
             return res.json({ status: true, message: "Xóa bình luận thành công" });
         } catch (error) {
             console.log(error);
