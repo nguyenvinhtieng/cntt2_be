@@ -1,5 +1,4 @@
 const jwt = require("jsonwebtoken");
-const { secret_key } = require("../../credentials");
 const User = require("../models/User");
 async function checkLogin(req, res, next) {
     let header = req.headers.authorization;
@@ -8,7 +7,7 @@ async function checkLogin(req, res, next) {
         return res.json({ success: false, message: "Vui lòng đăng nhập!" });
     }
     try {
-        let decoded = jwt.verify(token, secret_key);
+        let decoded = jwt.verify(token, process.env.SECRET_KEY);
         const user = decoded.user;
         let user_id = user._id;
         const userData = await User.findOne({_id: user_id});

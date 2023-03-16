@@ -1,11 +1,9 @@
 const { Storage } = require('megajs')
 const fs = require('fs')
-const credentials = require('../credentials')
-// const storageConfig = require('../config/storage')
 
 const storageConfig = new Storage({
-    email: credentials.mega_config.email,
-    password: credentials.mega_config.password,
+    email: process.env.MEGA_EMAIL,
+    password: process.env.MEGA_PASSWORD,
     userAgent: 'ExampleClient/1.0'
   })
 async function uploadFile(file) {

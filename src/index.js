@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const expressSession = require('express-session');
@@ -17,7 +18,6 @@ app.use(cors())
 const route = require('./route/index.js');
 const db = require('./config/db.js');
 const handleSocket = require('./socket/index.js')
-const credentials = require('./credentials');
 const init = require("./init");
 db.connect();
 // init account admin
@@ -27,7 +27,7 @@ app.use(cookieParser())
 app.use(expressSession({
     resave: false,
     saveUninitialized: false,
-    secret: credentials.cookieSecret,
+    secret: process.env.COOKIE_SECRET ,
 }))
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(express.json());

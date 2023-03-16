@@ -1,8 +1,5 @@
-const fetch = require("node-fetch")
-const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const { v4: uuidv4 } = require('uuid');
-const { backend_laravel, secret_key} = require("../../credentials")
 const jwt = require('jsonwebtoken');
 const User = require("../models/User")
 const Bookmark = require("../models/Bookmark")
@@ -12,7 +9,6 @@ const uploadFile = require("../../utils/uploadFile");
 const sendMail = require("../../utils/sendMail");
 const Token = require("../models/Token");
 const { deleteToken } = require("../../utils/otpUtils");
-const users = require("../../users.json")
 const SALT_ROUNDS = 10;
 class AuthController {
     async fetchDataUser(req, res, next) {
@@ -118,7 +114,7 @@ class AuthController {
                 return res.json({status: false, message: "Tài khoản hoặc mật khẩu không đúng"});
             }
             if(user.status == "active") {
-                let token = jwt.sign({ user }, secret_key);
+                let token = jwt.sign({ user }, process.env.SECRET_KEY);
                 return res.json({status: true, message: "Đăng nhập thành công", token, user});
             }
             return res.json({status: false, message: "Tài khoản của bạn đã bị khóa"});
@@ -138,7 +134,7 @@ class AuthController {
                 phone: "0123456789",
                 role: "user"
             };
-            let token = jwt.sign({ user: userData }, secret_key);
+            let token = jwt.sign({ user: userData }, process.env.SECRET_KEY);
             return res.json({status: true, message: "Đăng nhập thành công", token, user: userData});
         } catch(e) {
             return res.json({status: false, message: "Có lỗi xảy ra"});

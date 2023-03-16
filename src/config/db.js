@@ -1,10 +1,8 @@
 const mongoose = require('mongoose');
-const credentials = require('../credentials.js')
 
-const connectionString = credentials.mongo.connectionString
 async function connect() {
     try {
-        await mongoose.connect(connectionString, {
+        await mongoose.connect(process.env.MONGO_CONNECTION_STRING, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });

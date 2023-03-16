@@ -1,6 +1,5 @@
 const nodemailer = require("nodemailer");
-const os = require("os");
-let url = "https://tech-forum.vercel.app/reset-password/"
+let url = process.env.FRONTEND_URL + "/reset-password/";
 async function sendMail(receiver, otp) {
     let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
