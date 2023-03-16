@@ -1,6 +1,7 @@
 const multiparty = require("multiparty");
 
 const Comment = require("../models/Comment");
+const Report = require("../models/Report");
 
 class CommentController {
     async get(req, res) {
@@ -44,7 +45,14 @@ class CommentController {
             if(comment_id == "" || comment_id == undefined) {
                 return res.status(400).json({ status: false, message: "Không có comment_id" });
             }
-            await Comment.findOneAndRemove({ _id: comment_id, author: user._id });
+            let commentFind = await Comment.findOne({ _id: comment_id});
+            if(!commentFind) {
+                return res.status(400).json({ status: false, message: "Không có bình luận này" });
+            }
+            if(commentFind.author.toString() != user._id.toString() || user.role != "admin") {
+                return res.status(400).json({ status: false, message: "Bạn không có quyền xóa bình luận này" });
+            }
+            await Comment.findOneAndRemove({ _id: comment_id});
             await Comment.updateMany({ reply_id: comment_id }, { $set: { reply_id: null } });
             return res.json({ status: true, message: "Xóa bình luận thành công" });
         } catch (error) {
